@@ -1,18 +1,18 @@
 let phonebook = [];
 
-function getPhonebook(){
+function getPhonebook{
 
-	return phonebook;
-
-}
-
-function getContact(contact){
-
-   phonebook.push(contact);
+	return phonebook
 
 }
 
-functions.export = {
+function addContact(contact){
+
+	phonebook.push(contact);
+
+}
+
+module.exports = {
 	getPhonebook,
-	getContact
-};
+	addContact
+}
